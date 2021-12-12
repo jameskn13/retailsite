@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+        }
+        header{
+            grid-column: 1/13;
+        }
+        .email{
+            grid-column: 1/13;
+        }
+        .phone{
+            grid-column: 1/13;
+        }
+        .policies{
+            grid-column: 1/13;
+        }
+        .cart{
+            grid-column: 1/13;
+        }
+        .search{
+            grid-column: 1/13;
+        }
+        nav{
+            grid-column: 1/13;
+            background-color: rgba(126, 152, 121, 0.555);
+            color: rgba(247, 247, 247, 0);
+        }
+        section{
+            grid-column: 1/13;
+        }
+        .product1{
+            grid-column: 1/13;
+        }
+        .product2{
+            grid-column: 1/13;
+        }
+        .product3{
+            grid-column: 1/13;
+        }
+        .product4{
+            grid-column: 1/13;
+        }
+        .product5{
+            grid-column: 1/13;
+        }
+        .product6{
+            grid-column: 1/13;
+        }
+        footer{
+            grid-column: 1/13;
+            background-color: rgba(126, 152, 121, 0.555);
+        }
+        @media only screen and (min-width:620px) {
+            header{
+                grid-column: 1/5;
+                grid-row: 1/3;
+            }
+            .email{
+                grid-column: 5/9;
+                grid-row: 1/2;
+            }
+            .phone{
+                grid-column: 9/13;
+                grid-row: 1/2;
+            }
+            .policies{
+                grid-column: 5/9;
+            }
+            .cart {
+                grid-column: 5/9;
+                grid-row: 2/3;
+            }
+            .search {
+                grid-column: 9/13;
+                grid-row: 2/3;
+            }
+            .product1 {
+                grid-column: 1/5;
+            }
+            .product2 {
+                grid-column: 5/9;
+            }
+            .product3 {
+                grid-column: 9/13;
+            }
+            .product4 {
+                grid-column: 1/5;
+            }
+            .product5 {
+                grid-column: 5/9;
+            }
+            .product6 {
+                grid-column: 9/13;
+            }
+        }
+        @media only screen and (min-width:900px) {
+            header{
+                grid-column: 1/4;
+                grid-row: 1/3;
+            }
+            .email{
+                grid-column: 4/6;
+                grid-row: 1/2;
+            }
+            .phone{
+                grid-column: 6/8;
+                grid-row: 1/2;
+            }
+            .policies{
+                grid-column: 8/10;
+                grid-row: 1/2;
+            }
+            .cart {
+                grid-column: 10/13;
+                grid-row: 1/2;
+            }
+            .search {
+                grid-column: 4/13;
+                grid-row: 2/3;
+            }
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="customstyle" href="custom.css">
+<body>
+    <div class="container">
+        <header>
+            <div class="d-flex justify-content-center">
+                <img src="photos/ICARUS copy.png">
+            </div> 
+        </header>
+        <div class="email">
+            <div class="d-flex justify-content-center">
+                <a href="index.html" class="btn btn-outline-dark active">Home</a>
+            </div> 
+        </div>
+        <div class="phone">
+            <div class="d-flex justify-content-center">
+                <a href="product1.html" class="btn btn-outline-dark">Products</a>
+            </div> 
+        </div>
+        <div class= "policies">
+            <div class="d-flex justify-content-center">
+                <a href="policy.html" class="btn btn-outline-dark">Policies</a>
+            </div>
+        </div>
+        <div class= "cart">
+            <div class="d-flex justify-content-center">
+                <a href="cart.html" class="btn btn-outline-dark">Cart</a>
+            </div>
+        </div>
+        <div class="search">
+            <div class="d-flex justify-content-center">
+                <img src="photos/Untitled design-2.png">
+            </div>
+        </div>
+        <nav>
+            <p>-</p>
+        </nav>
+        <section>
+            <div class="d-flex justify-content-center">
+                <img src="photos/YOUR copy.png">
+            </div>
+        </section>
+        <div class="product1">
+            <div class="card">
+                <img src="photos/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Real Crystal Pedulum Kits-$20.99</h5>
+                  <p class="card-text">Tired of tarot, runes and meditating? Try out a pedulum to get your answers.</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class="product2">
+            <div class="card">
+                <img src="photos/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">5 Minute crafts for your craft- $5.00</h5>
+                  <p class="card-text">Need wall decor? Don't want to drop a dime? Try out these DIY Kits!</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class="product3">
+            <div class="card">
+                <img src="photos/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vintage Tarot Deck- $18.99</h5>
+                  <p class="card-text">75 cards with a guide book.</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class= "product4">
+            <div class="card">
+                <img src="photos/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amethyst clusters- $12.34</h5>
+                  <p class="card-text">1lb Amethyst clusters</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class= "product5">
+            <div class="card">
+                <img src="photos/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Crystal Pendants- $11.11</h5>
+                  <p class="card-text">Choose your favorite crystals to be set in a pendant.</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class= "product6">
+            <div class="card">
+                <img src="photos/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Crystal starter set- $55.55</h5>
+                  <p class="card-text">Wooden Triangle shelf with 15 crystals of your choosing.</p>
+                  <a href="fakeproduct.html" class="btn btn-outline-dark">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <footer>
+            <p>ICARUS Co. products</p>
+            <p>Katie James</p>
+            <p>555-555-5555</p>
+            <p>icarusco@wings.com</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.footer {
+	background-color: rgba(126, 152, 121, 0.747);
+}
+
+.h2{
+	color: rgb(126, 152, 121);
+}
+.p{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+	color:  rgb(126, 152, 121);
+}
+
+.h4{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
